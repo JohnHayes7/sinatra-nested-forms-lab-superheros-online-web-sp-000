@@ -10,6 +10,7 @@ class App < Sinatra::Base
   end
   
   puts '/team' do
+    "I SEE YOU!!"
     
     erb :'team'
   end
