@@ -8,4 +8,8 @@ class Superhero
     @bio = hero_hash[:bio]
     @@all << self
   end
+  
+  def self.all 
+    @@all
+  end
 end
