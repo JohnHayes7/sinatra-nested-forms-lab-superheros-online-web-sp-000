@@ -3,7 +3,7 @@ class Team
   
   def initialize(team_hash)
     binding.pry
-    @name = team[:name]
-    @motto = team[:motto]
+    @name = team_hash[:name]
+    @motto = team_hash[:motto]
   end
 end
