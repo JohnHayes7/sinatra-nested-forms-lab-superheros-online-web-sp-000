@@ -1,9 +1,9 @@
 class Team
   attr_accessor :name, :motto
   
-  def initialize(team_hash)
+  def initialize(team)
     binding.pry
-    @name = team_hash[:name]
-    @motto = team_hash[:motto]
+    @name = team[:name]
+    @motto = team[:motto]
   end
 end
