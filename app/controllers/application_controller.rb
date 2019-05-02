@@ -9,7 +9,7 @@ class App < Sinatra::Base
   erb :'super_hero'
   end
   
-  puts '/team' do
+  puts '/teams' do
     "I SEE YOU!!"
     
     erb :'team'
