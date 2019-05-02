@@ -10,7 +10,7 @@ class App < Sinatra::Base
   end
   
   post '/teams' do
-    "I SEE YOU!!"
+    
     
     erb :'team'
   end
